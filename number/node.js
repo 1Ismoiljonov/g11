@@ -13,6 +13,7 @@
 // console.log(parseInt(a)+b);
 // console.log(+a+b);
 
-let a = 10
-let b = 1e1
-console.log(a + b);
+// let a = 10
+// let b = 1e1
+// console.log(a + b);
+
