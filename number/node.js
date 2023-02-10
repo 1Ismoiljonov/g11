@@ -43,4 +43,5 @@
 // console.log(a.toFixed(2));  // butundan keyin necgta raqam olishi
 // console.log(a.toPrecision(2)); 
 
-
+let a = 10
+console.log(parseInt(Math.random(10)*100));
