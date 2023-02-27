@@ -23,3 +23,4 @@
 
 let num = '+998418438774'
 console.log(num.startsWith('+998'));
+console.log('samandar');
