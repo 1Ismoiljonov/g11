@@ -1,1 +1,1 @@
-console.log('Samandar');
+console.log('Samandar')
