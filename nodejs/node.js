@@ -21,6 +21,11 @@
 // console.log(name.indexOf('dar'));
 // console.log(name.lastIndexOf('dar'));
 
-let num = '+998418438774'
-console.log(num.startsWith('+998'));
-console.log('samandar');
+// let num = '+998418438774'
+// console.log(num.startsWith('+998'));
+// console.log('samandar');
+
+let names = 'Ismoiljonov Samandar'
+for (i of names) {
+    console.log(i === i.toUpperCase());
+}
