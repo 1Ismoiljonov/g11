@@ -29,3 +29,5 @@ let names = 'Ismoiljonov Samandar'
 for (i of names) {
     console.log(i === i.toUpperCase());
 }
+
+console.log('Samandar');
