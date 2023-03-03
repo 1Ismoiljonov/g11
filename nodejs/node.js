@@ -46,6 +46,33 @@
 
 // console.log(date.get);
 
-let obj = {login: 'Samandar', pw: 9302003}
+// let obj = {login: 'Samandar', pw: 9302003}
 
-localStorage.setItem('info', obj)
+// localStorage.setItem('info', JSON.stringify(obj , ['login ']))  // becentga malumot jonatish 
+// let res = localStorage.getItem('info')
+// console.log(JSON.parse(res).pw);
+
+
+
+// new theme  MAP
+
+let map = new Map ()
+let obj = {}
+map.set('name', 'webbrain' )  // map ga malumot set orqali
+map.set('title', 'IT center' ) 
+map.set(obj, 'object') 
+// console.log(map.get('name'));  // agar bizga map ni ichidagi malumotlar kerak bo'lsa uni  ' get ' keywordidan foydalanamiz
+// console.log(map.has(obj));  // has bu map ichida shunday malumot bormi shuni tekshirib beradi
+console.log('before', map);
+map.delete('title')
+console.log('after', map);
+
+
+
+
+
+
+
+
+
+
